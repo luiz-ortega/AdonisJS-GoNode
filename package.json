@@ -27,6 +27,7 @@
     "@adonisjs/mail": "^3.0.10",
     "e": "0.0.4",
     "eslint-config-prettier": "^6.9.0",
+    "moment": "^2.24.0",
     "o": "^2.3.2",
     "pg": "^7.17.1"
   },
