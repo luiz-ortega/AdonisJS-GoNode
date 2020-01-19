@@ -16,7 +16,7 @@ class FileController {
 
       const upload = request.file('file', { size: '2mb' })
 
-      const fileName = `${Date.now()}.${upload.subtype}`
+      const fileName = `${Date.now()}.${upload.subtype} `
 
       await upload.move(Helpers.tmpPath('uploads'), {
         name: fileName
