@@ -23,7 +23,7 @@ class ProjectController {
     const project = await Project.findOrFail(params.id)
 
     await project.load('user')
-    await project.load('task')
+    await project.load('tasks')
 
     return project
   }
