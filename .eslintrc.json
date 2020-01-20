@@ -28,7 +28,8 @@
     "array-bracket-newline": ["error", "consistent"],
     "dot-location": ["error", "property"],
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
-    "no-unused-vars": ["error", { "caughtErrors": "all" }]
+    "no-unused-vars": ["error", { "caughtErrors": "all" }],
+    "no-useless-return": 0
     // "space-before-function-paren": "error"
   }
 }
