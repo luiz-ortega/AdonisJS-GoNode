@@ -11,12 +11,12 @@ module.exports = {
   | Boolean: true - Allow current request origin
   | Boolean: false - Disallow all
   | String - Comma separated list of allowed origins
-  | Array - An array of allowed origins
+  | Array - An array of allowed origins <<<<<<<<--------------------------------------------
   | String: * - A wildcard to allow current request origin
   | Function - Receives the current origin and should return one of the above values.
   |
   */
-  origin: false,
+  origin: true,
 
   /*
   |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ module.exports = {
   | Array - An array of allowed methods
   |
   */
-  methods: ['GET', 'PUT', 'PATCH', 'POST', 'DELETE'],
+  methods: ['GET', 'PUT', 'POST', 'DELETE'],
 
   /*
   |--------------------------------------------------------------------------
